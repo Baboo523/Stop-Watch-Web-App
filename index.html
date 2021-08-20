@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stop Watch</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container text-center ml-10 "
+        style=" margin-left: 400px; margin-top: 100px;border: 10px solid #41fc08  ; width: 500px;background-color: #601550;height: 450px;border-radius: 80px;"
+        id="large">
+            <img src="./Images/stp.png" style=" border width: 80px;">
+            <h2>Stop Watch</h2>
+            <img src="./Images/stp.png" alt="">
+            <div>
+                <h1 id="min">0</h1>
+                <h1 id="sec">0</h1>
+                <h1 id="msec">0</h1>
+            </div>
+            <div>
+                <button onclick="start()" class="color1">Start</button>
+                <button onclick="stop()" class="color2" >Pause</button>
+                <button onclick="reset()" class="color3" >Reset</button>
+            </div>
+    
+            <h4 style="color: white;text-shadow: 2px 2px red; font-size: 50px; ">Made By Baboo Kumar Heerani</h4>
+        </div>
+    </body>
+    <script src="./app.js"></script>
+</html>
